@@ -111,13 +111,46 @@ u{
         to right, #055bc3, #2f8dff, #00ffb7);
 }
 
+#contactandservicesroundthing{
+    margin-left: 10%;
+    margin-right: 10%;
+    min-width: 480px;
+    width: 80%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-height: 300px;
+    border-radius: 25px;
+    background: linear-gradient(
+        to right, #055bc3, #2f8dff, #00ffb7);
+}
 
-#titlefr{
+
+
+#hometitle{
     color: rgb(193, 255, 246);
     font-size: 60px;
     font-weight: bold;
     margin: 10px;
 }
+
+#contacttitle{
+    color: rgb(193, 255, 246);
+    font-size: 60px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#servicestitle{
+    color: rgb(193, 255, 246);
+    font-size: 60px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+
 
 #titletext{
     height: auto;
@@ -141,5 +174,82 @@ u{
     position: fixed;
     bottom: 40px;
     left: 40px;
-    box-shadow: 6px 6px;
+    box-shadow: #400081 6px 6px;
+}
+
+
+
+#contactbody{
+    margin-top: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    border-width: 2px;
+    border-style: solid;
+    border-color: #b9bec5;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    height: 2000px;
+    width: 90%;
+    
+    box-shadow: #b3bdbd 0px -1px ;
+    background-color: #ffffff;
+    
+  
+    
+    
+
+}
+
+.contactrow{
+    
+}
+
+
+
+.contactbuttonbox{
+    
+    height: 200px;
+    width: 400px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #87b5ff;
+    margin: 40px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: black 3px 3px;
+
+    
+   
+}
+
+.contactbuttonboxlabel{
+    font-weight: bold;
+   width: 280px;
+   height: 40px;
+   margin-left: 30px;
+   font-size: 16px;
+   color: #002a46;
+   
+  
+    
+}
+
+.contactbutton{
+    width: 60%;
+    height: 45px;
+   margin-top: 30px;
+   margin-left: 20%;
+   margin-right: 20%;
+   border-radius: 15px;
+   border-color: rgb(0, 119, 255);
+   box-shadow: #101a48 1px 1px;
+   background: linear-gradient(
+    to right, #5fa7ff, #b20cff);
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
 }
